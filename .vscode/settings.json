@@ -1,0 +1,11 @@
+{
+	"python.linting.enabled": true,
+	"python.linting.pylintEnabled": true,
+	"python.pythonPath": "C:\\Users\\conno\\Anaconda3\\envs\\ai\\python.exe",
+	"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+	"terminal.integrated.shellArgs.windows": [
+		"/K",
+		"C:\\Users\\conno\\Anaconda3\\Scripts\\activate.bat",
+		"C:\\Users\\conno\\Anaconda3"
+	]
+}
