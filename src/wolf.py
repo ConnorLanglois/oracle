@@ -1,18 +1,18 @@
-import pandas as pd
+from pathlib import Path
 
-from os import path
-from numpy import random
+import numpy as np
+import pandas as pd
 from sklearn.preprocessing import StandardScaler
+
 from keras.models import Sequential
 from keras.layers import BatchNormalization, Dense, LSTM
 from keras.preprocessing.sequence import TimeseriesGenerator
 
-random.seed(0)
+np.random.seed(0)
 
-df = pd.read_csv(path.relpath('data/aapl.csv'))[::-1]
-features = df.columns.difference(['Date', 'Correction'])
+df = pd.read_csv(Path() / 'data/aapl.csv')[::-1]
 
-x = StandardScaler().fit_transform(df[features].astype(float))
+x = StandardScaler().fit_transform(df[df.columns.difference(['Date', 'Correction'])].astype(float))
 y = df['Correction'].values
 
 series = TimeseriesGenerator(x, y, 14, batch_size=len(x))[0]
