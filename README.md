@@ -1,3 +1,3 @@
 # TheWolf
 
-An automated AI-backed stock trading system.
+An automated AI-backed stock predication and stock trading application. 
