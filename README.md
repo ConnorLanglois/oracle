@@ -1,5 +1,5 @@
 # TheWolf
 
-An automated AI-backed stock predication and stock trading application. 
+An automated AI-backed stock prediction application.
 
-Dependcies: keras, quantopian, numpy, pandas
+Dependencies: keras, quantopian, numpy, pandas
