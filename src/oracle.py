@@ -22,7 +22,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 tf.logging.set_verbosity(tf.logging.ERROR)
 
 # enable reproducibility
-np.random.seed(0)
+# np.random.seed(0)
 
 # read data
 df = pd.read_csv('data/aapl.csv')[::-1]
@@ -56,8 +56,7 @@ for i in range(1, 301):
 	# evaluate on train and test sets
 	train_acc = model.evaluate(train_x, train_y, verbose=0)[1]
 	test_acc = model.evaluate(test_x, test_y, verbose=0)[1]
-
+	
 	# output
-	print('Epoch:', i)
-	print('Train Acc:', round(train_acc, 2))
-	print('Test Acc:', round(test_acc, 2), end='\n\n')
+	print(i, round(train_acc, 2), round(test_acc, 2))
+

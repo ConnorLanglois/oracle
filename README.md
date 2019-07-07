@@ -1,5 +1,5 @@
-# TheWolf
+# Oracle
 
 An automated AI-backed stock predication and stock trading application. 
 
-Dependcies: keras, quantopian, numpy, pandas
+Dependencies: keras, quantopian, numpy, pandas
