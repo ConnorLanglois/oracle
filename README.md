@@ -1,5 +1,5 @@
 # Oracle
 
-An automated AI-backed stock predication and stock trading application. 
+An automated AI-backed stock prediction application.
 
-Dependencies: keras, quantopian, numpy, pandas
+Dependencies: keras, numpy, pandas
