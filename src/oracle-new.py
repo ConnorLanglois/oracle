@@ -20,7 +20,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 tf.logging.set_verbosity(tf.logging.ERROR)
 np.random.seed(0)
 
-df = pd.read_csv('data/aapl.csv')[::-1]
+df = pd.read_csv('../data/aapl.csv')[::-1]
 
 x = StandardScaler().fit_transform(df[df.columns.difference(['Date', 'Correction'])].astype(float))
 y = df['Correction'].values

@@ -25,7 +25,7 @@ tf.logging.set_verbosity(tf.logging.ERROR)
 # np.random.seed(0)
 
 # read data
-df = pd.read_csv('data/aapl.csv')[::-1]
+df = pd.read_csv('../data/aapl.csv')[::-1]
 
 # read and scale features, read response
 x = StandardScaler().fit_transform(df[df.columns.difference(['Date', 'Correction'])].astype(float))
