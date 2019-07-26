@@ -29,6 +29,8 @@ By leveraging state-of-the-art AI LSTM neural networks and vasts amount of data,
 
 Currently, it has about a 60% accuracy in predicting the daily movement of a stock.
 
+Read the academic research paper [here](paper/An%20AI-based%20Approach%20to%20Stock%20Market%20Prediction.pdf)
+
 ### Built With
 
 * [Python](https://www.python.org/) - The scripting language
