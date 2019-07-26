@@ -1,5 +1,5 @@
 <div align="center">
-  <h2><a href="#">🔮</a></h2>
+  <h3><a href="#">🔮</a></h3>
 </div>
 <h1 align="center">Oracle™</h1>
 <h3 align="center">An automated AI-backed stock prediction application.</h3>
