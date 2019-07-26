@@ -1,16 +1,12 @@
 <br>
-<p align="center">
-  <h3 align="center">Oracle</h3>
-
-  <p align="center">
-    An automated AI-backed stock prediction application.
-    <br>
-    <br>
-    <a href="https://github.com/ConnorLanglois/oracle/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/ConnorLanglois/oracle/issues">Request Feature</a>
-  </p>
-</p>
+<h1 align="center">Oracle</h1>
+<h3 align="center">An automated AI-backed stock prediction application.</h3>
+<div align="center">
+	<a href="https://github.com/ConnorLanglois/oracle/issues">Report Bug</a>
+	·
+	<a href="https://github.com/ConnorLanglois/oracle/issues">Request Feature</a>
+</div>
+<br>
 
 ## Table of Contents
 
