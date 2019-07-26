@@ -52,7 +52,7 @@ Follow these simple example steps to get a local copy up and running.
 
 On Windows, open Anaconda Prompt
 
-On Max/Linux, open terminal
+On Mac/Linux, open terminal
 
 1. Create the Oracle™ environment
 	```shell
@@ -98,7 +98,7 @@ On Max/Linux, open terminal
 
 On Windows, open Anaconda Prompt
 
-On Max/Linux, open terminal
+On Mac/Linux, open terminal
 
 1. Activate the Oracle™ environment
 	```shell
