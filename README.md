@@ -1,5 +1,5 @@
 <br>
-<h1 align="center">Oracle</h1>
+<h1 align="center">Oracle™</h1>
 <h3 align="center">An automated AI-backed stock prediction application.</h3>
 <div align="center">
 	<a href="https://github.com/ConnorLanglois/oracle/issues">Report Bug</a>
